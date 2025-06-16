@@ -32,7 +32,7 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-          pytest mlopsead/test_train.py -p no:warnings
+          pytest -p no:warnings
 
   check_python_code_style_job:
     runs-on: ubuntu-latest
