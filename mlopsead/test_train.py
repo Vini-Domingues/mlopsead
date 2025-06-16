@@ -1,12 +1,8 @@
 import pandas as pd
 import pytest
 from tensorflow.keras.models import Sequential
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from train import (read_data,
-                   create_model,
-                   train_model)
+
+from mlopsead.train import (read_data, create_model, train_model)
 
 
 @pytest.fixture
