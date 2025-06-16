@@ -75,7 +75,7 @@ jobs:
 
       - name: Train Model
         run: |
-          python train.py
+          python mlopsead/train.py
 
   build_image:
     runs-on: ubuntu-latest
